@@ -1,0 +1,31 @@
+https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
+*{}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E1E2F;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.box{
+    color: #FFFFFF;
+}
+.box__head{
+    width: 100%;
+}
+.box__head input, label, span{
+    display: none;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
