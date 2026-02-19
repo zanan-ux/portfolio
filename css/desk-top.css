@@ -266,7 +266,7 @@
         font-size: 27px;
         font-weight: normal;
     }
-    .soft__top, .soft__bottom{
+    .soft__top, .soft__middle, .soft__bottom{
         width: 100%;    
         border: 2px solid #5B23FF;
         padding: 5px;
