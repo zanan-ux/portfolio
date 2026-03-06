@@ -17,15 +17,32 @@
         justify-content: space-between;
         align-items: center;
     }
+    .box__head input, .head__main__burger--main, .burger--main__lines{
+        display:none;
+    }
+    .person{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 400px;
+        height: 400px;
+    }
+    .logo:hover{
+        transform: scale(1.3);
+    }
     .logo{
         width: 50px;
         height: 30px;
         display: block;
         margin-left: 20px;
+        transition: 0.3s;
+    }
+    .main__head__all{
+        width: 55%;
     }
     .head__links{
         min-width: 500px;
-        width: 50%;
+        width: 100%;
+        display: flex;
     }
     .links__links{
         display: flex;
@@ -138,6 +155,7 @@
     .main-project__head{
         font-size: 30px;
         font-weight: normal;
+        text-decoration: underline;
     }
     .main-project__main{
         font-size: 30px;
@@ -157,6 +175,9 @@
         padding-top: 80px;
         width: 45%;
     }
+    .project-second__link, .project-first__link{
+        display: none;
+    }
     .part-first__link{
         height: 20px;
     }
@@ -175,6 +196,16 @@
         flex-direction: row;
         width: 60px;
         justify-content: space-between;
+    }
+    .link__photo:hover{
+        transform: scale(1.3);
+    }
+    .link__photo{
+        width: 50px;
+        height: 30px;
+        display: block;
+        margin-left: 20px;
+        transition: 0.3s;
     }
     .link__photo{
         width: 20px;
@@ -322,7 +353,7 @@
         font-size: 20px;
         padding-left: 2%;
     }
-    input, text-area{
+    input, textarea{
         color: white;
     }
     .input__email{

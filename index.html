@@ -13,17 +13,22 @@
     <div class="box">
         <header class="box__head">
             <div class="haed__head">
-                <img src="img/logo2.png" alt="Логотип" class="logo">
-                <input type="checkbox" class="head__main__burger" id="burger">
-                <label for="burger" class="head__main__burger--main"><span class="burger--main__lines"></span></label>
-                <nav class="head__links">
-                    <ul class="links__links">
-                        <li class="links__part link__part1"><a href="" class="part__link">Головна</a></li>
-                        <li class="links__part link__part2"><a href="#about" class="part__link">Про мене</a></li>
-                        <li class="links__part link__part3"><a href="#projects" class="part__link">Мої проєкти</a></li>
-                        <li class="links__part link__part4"><a href="#skills" class="part__link">Контакти</a></li>
-                    </ul>
-                </nav>
+                <a href="https://github.com/zanan-ux" class="logo__link">
+                    <img src="img/logo2.png" alt="Логотип" class="logo">
+                </a>
+                <div class="main__head__all">
+                    <input type="checkbox" class="head__main__burger" id="burger">
+                    <label for="burger" class="head__main__burger--main"><span class="burger--main__lines"></span></label>
+                    <nav class="head__links">
+                        <ul class="links__links">
+                            <li class="links__part link__part1"><a href="" class="part__link">Головна</a></li>
+                            <li class="links__part link__part2"><a href="#about" class="part__link">Про мене</a></li>
+                            <li class="links__part link__part3"><a href="#projects" class="part__link">Мої проєкти</a></li>
+                            <li class="links__part link__part4"><a href="#skills" class="part__link">Мої навички</a></li>
+                            <li class="links__part link__part4"><a href="#contact" class="part__link">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <div class="head__main">
                 <div class="head__main__main">
@@ -33,14 +38,14 @@
                 </div>
                 <div class="main__photo">
                     <div class="photo__bacc">
-                        <img src="" alt="Моє фото" class="person">
+                        <img src="img/me.png" alt="Моє фото" class="person">
                     </div>
                 </div>
             </div>
         </header>
         <section class="box__about" id="about">
             <h2 class="about__head">Інформація про мене</h2>
-            <p class="about__main">Андрій, 15 років. Цікавлюся програмуванням і конмп'ютерними
+            <p class="about__main">Андрій, 15 років. Цікавлюся програмуванням і комп'ютерними
                 технологіями. Вивчаю основи програмування та прагну розвиватися в ІТ-
                 напрямку.
             </p>
@@ -49,13 +54,13 @@
             <h2 class="projects__head">Мої проєкти</h2>
             <div class="projects__box">
                 <div class="box__part-first">
-                    <img src="img/first.png" alt="Фото першого проєкта" class="first__project">
+                        <img src="img/first.png" alt="Фото першого проєкта" class="first__project">
                     <div class="part-first__main">
                         <h4 class="main-project__head">Дослідження традицій України</h4>
                         <p class="main-project__main">Робота, в якій я дослідив виникнення різних українських традицій</p>
                         <div class="part-__link">
-                            <a href="" class="link__photo"><img src="img/Vector.png" alt="GitHub" class="part-first__links"></a>
-                            <a href="" class="link__photo"><img src="img/icon-park-solid_click.png" alt="" class="part-first__links"></a>
+                            <a href="https://zanan-ux.github.io/a-summer-work/" class="link__photo"><img src="img/Vector.png" alt="GitHub" class="part-first__links"></a>
+                            <a href="https://github.com/zanan-ux/a-summer-work" class="link__photo"><img src="img/icon-park-solid_click.png" alt="" class="part-first__links"></a>
                         </div>
                     </div>
                 </div>
@@ -63,9 +68,9 @@
                     <div class="part-second__main">
                         <h4 class="main-project__head">Пізнай себе через архетипи</h4>
                         <p class="main-project__main">Проєкт про архетипи, в якому було завдання не тільки дізнатися про них, а й дізнатися більше про себе</p>
-                        <div class="part-__link"><a href="" class="link__photo"><img src="img/Vector.png" alt="GitHub" class="part-first__links"></a><a href="" class="photo__link"></a><img src="img/icon-park-solid_click.png" alt="" class="part-first__links"></div>
+                        <div class="part-__link"><a href="https://zanan-ux.github.io/project_arhetype/" class="link__photo"><img src="img/Vector.png" alt="GitHub" class="part-first__links"></a><a href="https://github.com/zanan-ux/project_arhetype" class="link__photo"><img src="img/icon-park-solid_click.png" alt="" class="part-first__links"></a></div>
                     </div>
-                    <img src="img/second.png" alt="Фото другого проєкта" class="second__project">
+                        <img src="img/second.png" alt="Фото другого проєкта" class="second__project">
                 </div>
             </div>
         </section>
@@ -103,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section class="box__contact--now">
+        <section class="box__contact--now" id="contact">
             <h2 class="contact--now__head">Контактуй з сайту</h2>
             <form action="https://formspree.io/f/mbdargzy" method="post" class="contact--now__main">
                 <input type="text" id="first__input" class="input__name" placeholder="Твоє ім'я"><label for="first__input"></label>
